@@ -200,3 +200,59 @@ input[type=submit] {
   background: #4aaaa5;
   border: 0 none;
 }
+
+
+@media screen and (max-width: 980px) {
+  
+ .container {
+      width: 980px;
+  }
+
+ #main-container {
+      width: 980px;
+  }
+  
+ .main-section {
+      width: 40%;
+      margin-left: 100px;
+      float: left;
+  }
+
+.sidebar {
+  margin-right: 100px;
+  /* width: 30%; */
+  float: right;
+  }
+
+
+#logo {
+  clear: both;
+     margin-left: 100px;
+ }
+
+nav {
+     margin-right: 100px;  
+ }
+}
+
+@media screen and (max-width: 768px) {
+  .container {
+    width: 768px;
+}
+
+  #main-container {
+    width: 768px;
+    
+}
+}
+
+@media screen and (max-width: 640px) {
+  .container {
+    width: 640px;
+}
+
+  #main-container {
+    width: 640px;
+    
+}
+}
